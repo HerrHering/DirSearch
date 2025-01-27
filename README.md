@@ -23,6 +23,7 @@ Environment variables > System environment variables > Add to the "Path" variabl
 Alternatively, put it anywhere and add the folder to the PATH: open ```~/.bashrc``` and add the line ```export PATH="$PATH:/path/to/directory"```, then resource the terminal.
 2. Add executable permission to **search.py** by writing ```chmod +x /path/to/search.py``` in the terminal.
 3. Add ```#!/usr/bin/env python3``` to the top of **search.py**. Now you can also remove the .py extension too for easier access.
+4. If you want to have similar setup to windows, you can follow the same steps but with a ```.bash``` file instead of .bat
 
 ## Flags
 
